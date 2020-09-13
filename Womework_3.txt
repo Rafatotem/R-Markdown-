@@ -1,0 +1,21 @@
+#1
+```{r}
+values<-c(1,2,3,4)
+
+mean(values)
+```
+
+#2
+```{r}
+
+attach(key_crop_yields)
+
+range(Year)
+```
+
+#3
+```{r}
+attach(key_crop_yields)
+mean(`Maize (tonnes per hectare)`,na.rm = TRUE)
+
+```
