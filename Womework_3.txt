@@ -18,4 +18,10 @@ range(Year)
 attach(key_crop_yields)
 mean(`Maize (tonnes per hectare)`,na.rm = TRUE)
 
-```
+```{r}
+values<-c(1,2,3,4)
+my_mean<-function(argument_1){
+data.frame_2<-sum(argument_1)/length(argument_1)
+return(data.frame_2)
+}
+my_mean(values)
